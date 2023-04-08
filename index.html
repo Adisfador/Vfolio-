@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио html-верстальщика</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Play&family=Pontano+Sans&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/cog1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="staff/normalize.css" type="text/css">
+    <link rel="stylesheet" href="staff/animate.css" type="text/css">
+    <link rel="stylesheet" href="stul.css" type="text/css">
+    <link rel="stylesheet" href="staff/iconstyle.css" type="text/css">
+    <link rel="stylesheet" href="css/style.min.css?ver=27" type="text/css">
+
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="page-preloader" class="preloader ">
+        <div class="loader">
+            <span id="load-perc">0%</span>
+        </div>
+    </div>
+    <!-- Loader end -->
+    <!-- Header -->
+    <header class="header " id="header">
+        <div class="container">
+            <div class="header__inner ">
+                <div class="header__logo " > 
+                    <div id="logo" data-scroll="#screen" > <span> < </span> Vfolio <span> /></span></div> </div>
+                <button id="header__burger" class="header__burger">
+                    <span class="header__burger-menu "></span>
+                </button>
+                <nav class="nav " id="nav">
+                    <a class="nav__link 1" href="#" data-scroll="#about">Услуги</a>
+                    <a class="nav__link 2" href="#" data-scroll="#service">Сервис</a>
+                    <a class="nav__link 3" href="#" data-scroll="#portfolio">Портфолио</a>
+                    <a class="nav__link 4" href="#" data-scroll="#contacts">Контакты</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+    <!-- Screen -->
+    <div class="screen" id="screen">
+        <div class="top-screen">
+            <div class="top-screen__box">
+                <div class="top-screen__title">ПРОФЕССИОНАЛЬНАЯ ВЕРСТКА САЙТОВ</div>
+                <div class="top-screen__subtitle">HTML-верстальщик - <span>Владислав Зубарев</span></div>
+            </div>
+        </div>
+        <a href="#" class="button">
+            <div class="button__text" data-scroll="#contacts"><span>Заказать верстку сайта</span></div>
+        </a>
+        <div data-scroll="#about" class="mouse">
+            <span></span>
+        </div>
+    </div>
+    <!-- Screen end -->
+    <!-- particles.js  -->
+    <div id="particles-js"></div>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__bg">
+                <h1 class="sectionTitle  wow  animate__animated animate__fadeInDown" data-wow-offset="300"
+                    data-wow-duration="1s">ЧЕМ Я ЗАНИМАЮСЬ</h1>
+                <div class="about__box">
+                    <div class="about__wrapper wow  animate__animated animate__fadeInLeft" data-wow-offset="200">
+                        <div class="about__card ">
+                            <h2 class="about__subtitle">Верстка</h2>
+                            <img src="img/che.svg" alt="img" class="about__img">
+                            <div class="about__text-wrapper">
+                                <div class="about__text">У вас есть готовый макет, который необходимо сверстать? Создаю
+                                    сайты с нуля,под ключ.</div>
+                                <ul class="about__list">
+                                    <li class="about__punkt">Адаптивная верстка (сайт будет адаптирован под все
+                                        разрешения)</li>
+                                    <li class="about__punkt">Кроссбраузерная (сайт будет одинаково отображаться в разных
+                                        браузерах)</li>
+                                    <li class="about__punkt">Чистый, читаемый, а главное работающий код</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__wrapper wow  animate__animated animate__fadeInRight" data-wow-offset="200">
+                        <div class="about__card">
+                            <h2 class="about__subtitle">Доработка</h2>
+                            <img src="img/cog.svg" alt="img" class="about__img">
+                            <div class="about__text-wrapper">
+                                <div class="about__text ">У вас есть уже сайт, но нужно что то изменить или добавить?
+                                    Вношу
+                                    любые
+                                    доработки после согласования.</div>
+                                <ul class="about__list">
+                                    <li class="about__punkt">Корректировка стилей</li>
+                                    <li class="about__punkt">Добавление элементов</li>
+                                    <li class="about__punkt"> Отладка блоков</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+    <!-- Service -->
+    <section class="service" id="service">
+        <div class="container">
+            <div class="service__bg">
+                <h1 class="sectionTitle  wow  animate__animated animate__fadeInDown" data-wow-offset="200"
+                    data-wow-duration="1s">ПРОЦЕСС ВЕРСТКИ</h1>
+                <div class="service__box">
+                    <div class="service__wrapper ">
+                        <div class="devel">
+                            <div class="devel__stick"></div>
+                            <p class="devel__name">Верстка контента</p>
+                            <div class="devel__img">
+                                <i class="icon-Html"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__wrapper wow  animate__animated animate__bounceInRight" data-wow-offset="100"
+                        data-wow-delay=".5s">
+                        <div class="devel">
+                            <div class="devel__stick"></div>
+                            <p class="devel__name">Настройка стилей</p>
+                            <div class="devel__img">
+                                <i class="icon-css3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__wrapper wow  animate__animated animate__bounceInRight" data-wow-offset="100"
+                        data-wow-delay=".7s">
+                        <div class="devel ">
+                            <div class="devel__stick"></div>
+                            <p class="devel__name">Адаптивная верстка</p>
+                            <div class="devel__img">
+                                <i class="icon-tablet"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__wrapper wow  animate__animated animate__bounceInRight" data-wow-offset="100"
+                        data-wow-delay=".9s">
+                        <div class="devel ">
+                            <div class="devel__stick"></div>
+                            <p class="devel__name">Проверка в браузерах</p>
+                            <div class="devel__img">
+                                <i class="icon-google"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service__wrapper wow  animate__animated animate__bounceInRight" data-wow-offset="100"
+                        data-wow-delay="1.2s">
+                        <div class="devel ">
+                            <div class="devel__stick"></div>
+                            <p class="devel__name">Устранение ошибок</p>
+                            <div class="devel__img">
+                                <i class="icon-bug"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <h2 class="slider__subtitle">Инструменты, которые я использую</h2>
+                    <div class="slider__wrapper">
+                        <div class="slider__item">
+                            <img src="img/slider-ico1.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico2.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico3.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico4.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico5.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico6.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico7.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico8.png" alt="icon" class="slider__img">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider-ico9.png" alt="icon" class="slider__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service end -->
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="sectionTitle  wow  animate__animated animate__fadeInDown" data-wow-offset="200"
+                data-wow-duration="1s">МОИ РАБОТЫ</h1>
+        </div>
+        <div class="portfolio__wrapper">
+            <div class="portfolio__item wow  animate__animated animate__backInLeft" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/hunger.jpg" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Lending <span>Hunger</span></div>
+                        <a target="_blank" href="dist/index.html" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInLeft" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/Barber.jpg" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Lending <span>BarberShop</span></div>
+                        <a target="_blank" href="Barber/index.html" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInRight" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/nw-min.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">База данных <span>New Worldinfo</span></div>
+                        <a target="_blank" href="https://newworldinfo.ru/" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInRight" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/squids.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Новостной сайт <span>squid</span></div>
+                        <a href="https://zvladislav.ffox.site/squid/" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInLeft" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/Creen-web.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Сайт визитка <span>Portfolio</span></div>
+                        <a href="#" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInLeft" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/Creen-web.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Сайт визитка <span>Portfolio</span></div>
+                        <a href="#" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInRight" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/Creen-web.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Сайт визитка <span>Portfolio</span></div>
+                        <a href="#" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio__item wow  animate__animated animate__backInRight" data-wow-offset="100">
+                <div class="portfolio__img-wrapper">
+                    <img src="img/Creen-web.png" alt="web-icon" class="portfolio__img">
+                </div>
+                <div class="portfolio__item-wrapper">
+                    <div class="portfolio__descr">
+                        <div class="portfolio__title">Сайт визитка <span>Portfolio</span></div>
+                        <a href="#" class="portfolio__link">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio end -->
+    <!-- Contacts -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h1 class="sectionTitle  wow  animate__animated animate__fadeInDown" data-wow-offset="200"
+                data-wow-duration="1s">Контакты</h1>
+
+            <div class="contacts__wrapper">
+                <div class="contacts__list wow  animate__animated animate__backInLeft" data-wow-offset="100">
+                    <div class="media">
+                        <i class="icon-phone"></i>
+                        <div class="media__box">
+                            <div class="media__text">Телефон</div>
+                            <a href="tel:+79851837956" class="media__list">+7 (985) 183 79 56</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i class="icon-telegram"></i>
+                        <div class="media__box">
+                            <div class="media__text">Telegram</div>
+                            <a href="https://web.telegram.org" class="media__list">@Zvladislav2</a>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <i class="icon-mail"></i>
+                        <div class="media__box">
+                            <div class="media__text">E-mail</div>
+                            <a href="mailto:kogar98@mail.ru" class="media__list">kogar98@mail.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__form wow  animate__animated animate__backInRight" data-wow-offset="100">
+                    <form action="phpmailer/mail.php" method="POST">
+                        <input id="Name" name="Name" class="contacts__item" type="text" placeholder="Имя">
+                        <input id="e-mail" name="e-mail" class="contacts__item" type="email" placeholder="Email">
+                        <textarea id="What" name="What" class="contacts__textarea"
+                            placeholder="Комментарий или ссылка на макеты / задание"></textarea>
+                        <button type="submit" class="contacts__btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacts end -->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                © Portfolio
+                <script >
+                    var today = new Date();
+                    var year = today.getUTCFullYear();
+                    document.write(year);
+                </script>
+                | Zubarev Vladislav
+            </div>
+        </div>
+    </footer>
+    <script src="staff/jquery-3.5.1.min.js"></script>
+    <script src="staff/libs.min.js"></script>
+    <script src="js/script.min.js?ver=3"></script>
+    <script src="staff/particles.js"></script>
+    <script src="staff/app.js"></script>
+    <script src="staff/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
